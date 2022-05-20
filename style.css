@@ -1,5 +1,5 @@
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;	
 }
 
 header {
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 31px;
 }
 
 .produtos h2 {
@@ -92,10 +92,6 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main{
-
 }
 
 form{
@@ -152,7 +148,6 @@ td, th{
 	padding: 8px 15px ;
 }
 
-/* css da página inicial*/
 .banner{
 	width: 100%;
 }
@@ -249,3 +244,11 @@ td, th{
 	margin: 2em auto;
 }
 
+.corpo-contato{
+	width: 940px;
+	margin: 0 auto;
+}
+
+@media screen {
+	
+}
