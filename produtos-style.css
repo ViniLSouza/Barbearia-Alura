@@ -1,0 +1,90 @@
+header {
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    margin: 0  1.5%;
+    padding: 30px 20px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 3px solid #000000;
+    border-radius: 0 10px;
+    box-sizing: border-box;
+}
+
+.produtos li:hover {
+    border-color: #CCCCCC;
+}
+
+.produtos li:active {
+    border-color: #a39b00;
+}
+
+.produtos li:hover h2 {
+    font-size: 28px;
+}
+
+.produtos h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
